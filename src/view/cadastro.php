@@ -19,7 +19,7 @@ session_start();
 	</div>
 	<h1>CADASTRO</h1>
 
-	<form action="./model/cadastrar.php" method="POST">
+	<form action="./../model/cadastrar.php" method="POST">
 		<input name="nome" class="campo" type="text" placeholder="Nome Completo">
 		<input name="email" class="campo" type="email" placeholder="Email">
 		<input name="senha" class="campo" type="password" placeholder="Senha">

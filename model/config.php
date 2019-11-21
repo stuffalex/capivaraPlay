@@ -1,6 +1,6 @@
 <?php
 
-define('HOST', '127.0.0.1');
+define('HOST', 'localhost');
 define('USUARIO', 'root');
 define('SENHA', '');
 define('DB', 'capivaraplay');

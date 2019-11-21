@@ -3,7 +3,7 @@ session_start();
 include_once("config.php");
 
 if(empty($_POST['email']) || empty($_POST['senha'])){
-  header('Location: ./../index.php')
+  header('Location: ./../index.php');
 }
 
 $email = mysqli_real_escape_string($conexao, $_POST['email']);
@@ -16,7 +16,7 @@ $senha = mysqli_real_escape_string($conexao, $_POST['senha']);
 
   if($row == 1){
       $_SESSION['usuario'] = $email;
-      header('Location: ./../view/home.php');
+      header('Location: ./view/home.php');
       exit();
   } else{
     header('Location: ./../index.php');  

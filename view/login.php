@@ -15,11 +15,11 @@ session_start();
         <div class="icone">
             <img src="./view/images/capybara-head.png">
         </div>
-      <form action = "./../model/logar.php" method = "POST">
-        <input class="campo" type="text" placeholder="e-mail">
+      <form action = "./model/logar.php" method = "POST">
+        <input name = "email" class="campo" type="text" placeholder="e-mail">
         <a href="./view/cadastro.php"><h4>Nao possui uma conta?</h4></a>
 
-        <input class="campo" type="password" placeholder="senha">
+        <input name = "senha" class="campo" type="password" placeholder="senha">
         <h4>Esqueceu sua senha?</h4>
 
         <button type="submit" class="botaoLogin" id="botaoLogin">login</button>

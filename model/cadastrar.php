@@ -14,7 +14,7 @@ $celular = mysqli_real_escape_string($conexao, trim($_POST['celular']));
 if($row['total'] != 0){
   $_SESSION['usuario_existe'] = true;
   header('Location: ./../view/cadastro.php');
-  exit; 
+  exit(); 
 }
 
 $sql = "INSERT INTO usuario(nome, email, senha, celular) VALUES ('$nome', '$email', '$senha', '$celular')";
@@ -25,5 +25,5 @@ if($conexao->query($sql) === TRUE){
 
 $conexao->close();
 header('Location: ./../view/cadastro.ph');
-exit;
+exit();
 ?>
