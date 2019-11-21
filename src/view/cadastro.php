@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		<input class="campo" type="text" placeholder="Email">
 		<input class="campo" type="password" placeholder="Senha">
 		<input class="campo" type="text" placeholder="Celular">
-		<a href="home.php"><button class="botaoLogin" id="botaoLogin">login</button></a>
+    <button type= "submit" class="botaoLogin" id="botaoLogin">login</button>
 		<h4>Já Possui uma conta?<span>Entrar.</span></h4>
 	</form>
 </body>

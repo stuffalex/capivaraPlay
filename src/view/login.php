@@ -40,6 +40,6 @@
         <input class="campo" type="password" placeholder="senha">
         <h4>Esqueceu sua senha?</h4>
 
-        <a href="./view/home.php"><button class="botaoLogin" id="botaoLogin">login</button></a>
+        <button type="submit" class="botaoLogin" id="botaoLogin">login</button>
     </body>
 </html>    
