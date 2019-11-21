@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("./../controller/config.php");
+include_once("config.php");
 
 $nome = mysqli_real_escape_string($conexao, trim($_POST['nome']));
 $email = mysqli_real_escape_string($conexao, trim($_POST['email']));
@@ -9,7 +9,7 @@ $celular = mysqli_real_escape_string($conexao, trim($_POST['celular']));
 
   $sql = "select count(*) as total from usuario where usuario = '$email'";
   $result = mysqli_query($sql);
-  $row = mysqli_fetch_assoc($result;)
+  $row = mysqli_fetch_assoc($result);
 
 if($row['total'] != 0){
   $_SESSION['usuario_existe'] = true;

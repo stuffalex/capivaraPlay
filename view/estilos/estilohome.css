@@ -1,0 +1,223 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background-color: #414345;
+  margin: 0;
+}
+main{
+  width: 100%;
+  height: 60%;
+}
+
+@font-face{
+  font-family: Roboto-Thin;
+  src: url(./view/fonts/Roboto-Thin.ttf);
+}
+
+.header {
+    background-color: #232526;
+    height: 107px;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    position: absolute;
+    width: 254px;
+    height: 78px;
+    left: 1px;
+    top: 14px;
+}
+
+.search{
+    position: absolute;
+    width: 678px;
+    height: 42.38px;
+    left: 356px;
+    top: 38px;
+    
+    border: 3px solid #00F260;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #ffffff;
+    text-align: left;
+}
+
+#divBusca{
+    position: absolute;
+    border:solid 1px;
+    border-radius:5px;
+    border-color: #00F260;
+    border-width: 2.5px;
+    width: 728px;
+    height: 42.38px;
+    left: 285px;
+    top: 38px;
+  }
+   
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    padding-top: 2px;
+    font-style:italic;
+    font-size:18px;
+    color: #00F260;
+    border:none;
+    width: 685px;
+    height: 38px;
+  }
+
+  #btnBusca{
+    padding-top: 7px;
+  }
+  
+  #btnBusca:hover {
+    transform: translateY(-5px);
+}
+
+  #categorias{ 
+    position: absolute;
+    left: 100%;
+    right: 24.72%;
+    top: 5%;
+    bottom: 94.47%;
+    background-color: transparent;
+    border: transparent;
+  }
+  #categorias:hover {
+    transform: translateY(-5px);
+}
+
+  .carrinho{  
+    position: absolute;
+    left: 90%;
+    float: right;
+    top: 33%;
+    bottom: 94.32%;
+    background-color: transparent;
+    border: transparent;
+  }
+
+  .carrinho:hover {
+    transform: translateY(-5px);
+}
+
+  #profile:hover {
+    transform: translateY(-5px);
+}
+
+  #frase{
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: 264px;
+    top: 115px;
+
+    font-family: Roboto-Thin;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    color: #A8A8A8;
+}
+
+  #categoria{
+  color: #00F260;
+    
+  position: absolute;
+  width: 217px;
+  height: 24px;
+  left: 610px;
+  top: 190px;
+
+  font-family: Transistor 2.15;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: Arial;
+  color: #00F260;
+  text-align: center;
+  font-family: TRANSISTOR215;
+}
+
+.carrocel{
+  padding-top: 12rem;
+}
+
+.rodape{
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
+  background: rgba(35, 37, 38, 0.9);
+}
+
+#itemNE{
+  font-size: 16px;
+}
+
+a:-webkit-any-link {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+  font-family: Roboto-Thin;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+
+  width: 189px;
+  height: 104px;
+  left: 57px;
+  top: 1244px;
+}
+.videos{
+  margin-left: 25px;
+  margin-top: 150px;
+
+}
+#video{
+  display: inline-block;
+  background-color: #aaa;
+  width: 214px;
+  height: 132px;
+  margin-left: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+}
+
+#video img{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+
+  max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#video:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}

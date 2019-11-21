@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("./../controller/config.php");
+include_once("config.php");
 
 if(empty($_POST['email']) || empty($_POST['senha'])){
   header('Location: ./../index.php')

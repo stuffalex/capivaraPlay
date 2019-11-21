@@ -23,8 +23,8 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
-CREATE DATABASE capivaraPlay;
-USE capiravaPlay;
+CREATE DATABASE capivaraplay;
+USE capiravaplay;
 --
 -- Estrutura da tabela `usuario`
 --

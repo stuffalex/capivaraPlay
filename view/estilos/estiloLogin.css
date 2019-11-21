@@ -1,0 +1,63 @@
+body{
+    background-color: #414345;
+}
+
+@font-face{
+    font-family: "TRANSISTOR215";
+    src: url("/fontes/TRANSISTOR215.ttf");
+}
+
+h1{
+    color: #00F260;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 0;
+    font-family: "TRANSISTOR215";
+
+}
+
+.icone img{
+    width: 175px;
+    height: 175px;
+    margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    transform: translate(-50%);
+}
+
+.campo{
+    width: 350px;
+    height: 50px;
+    color: #696D71;
+    display: block;
+    font-size: 18px;
+    margin-left: 50%;
+    font-family: "TRANSISTOR215";
+    text-align: center;
+    border-radius: 10px;
+    background-color: #414345; 
+    border: 2px solid #00F260;
+    transform: translate(-50%);
+}
+
+.botaoLogin{
+    width: 150px;
+    height: 50px;
+    color: #414345;
+    border: none;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: #00F260;
+    font-family: "TRANSISTOR215";
+    
+}
+
+h4{
+    color: #696D71;
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+}
