@@ -1,5 +1,5 @@
 <?php
-include_once("controller/config.php");
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $db->prepare("INSERT INTO Usuarios (idUsuario,nome,email,password,telefone) VALUES (?,?,?,?,?)");
         $stmt->bindValue(1, $_POST["idUsuario"], SQLITE3_TEXT);
@@ -16,8 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           echo "<script>alert('Email já cadastrado!');</script>";
         }
       }
-       // fazer dentro do body de cadastro
-      include_once(view/cadastro.php);
+       // fazer dentro do body de cadastroS
 ?>
 
 
