@@ -25,7 +25,7 @@ session_start();
 		<input name="senha" class="campo" type="password" placeholder="Senha">
 		<input name="celular" class="campo" type="text" placeholder="Celular">
     <button type= "submit" class="botaoLogin" id="botaoLogin">Cadastrar</button>
-		<a href="./login.php"> <h4>Já Possui uma conta?<span>Entrar.</span></h4></a>
 	</form>
+	<a href="./login.php"> <h4>Já Possui uma conta?<span>Entrar.</span></h4></a>
 </body>
 </html>
