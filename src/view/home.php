@@ -1,3 +1,12 @@
+<?php
+session_start();
+include_once('./../model/verificaLogin.php');
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang = "pt-br">
     <head>

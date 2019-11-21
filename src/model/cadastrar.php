@@ -11,9 +11,9 @@ $celular = mysqli_real_escape_string($conexao, trim($_POST['celular']));
   $result = mysqli_query($sql);
   $row = mysqli_fetch_assoc($result;)
 
-if($row['total'] == 1){
+if($row['total'] != 0){
   $_SESSION['usuario_existe'] = true;
-  header('Location: cadastro.php');
+  header('Location: ./../view/cadastro.php');
   exit; 
 }
 
@@ -24,6 +24,6 @@ if($conexao->query($sql) === TRUE){
 }
 
 $conexao->close();
-header('Location: cadastro.php');
+header('Location: ./../view/cadastro.ph');
 exit;
 ?>
