@@ -16,7 +16,7 @@ $senha = mysqli_real_escape_string($conexao, $_POST['senha']);
 
   if($row == 1){
       $_SESSION['usuario'] = $email;
-      header('Location: ./view/home.php');
+      header('Location: ./../view/home.php');
       exit();
   } else{
     header('Location: ./../index.php');  

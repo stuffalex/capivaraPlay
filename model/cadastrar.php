@@ -24,6 +24,6 @@ if($conexao->query($sql) === TRUE){
 }
 
 $conexao->close();
-header('Location: ./../view/cadastro.ph');
+header('Location: ./../view/cadastro.php');
 exit();
 ?>
