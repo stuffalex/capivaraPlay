@@ -94,18 +94,18 @@ main{
     transform: translateY(-5px);
 }
 
-.logout{  
-  position: absolute;
-  left: 94%;
-  float: right;
-  top: 40%;
-  bottom: 94.32%;
-  background-color: transparent;
-  border: transparent;
-}
+  .carrinho{  
+    position: absolute;
+    left: 90%;
+    float: right;
+    top: 33%;
+    bottom: 94.32%;
+    background-color: transparent;
+    border: transparent;
+  }
 
-.logout:hover {
-  transform: translateY(-5px);
+  .carrinho:hover {
+    transform: translateY(-5px);
 }
 
   #profile:hover {
