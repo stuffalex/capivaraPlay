@@ -107,7 +107,19 @@ main{
   .carrinho:hover {
     transform: translateY(-5px);
 }
+.logout{  
+  position: absolute;
+  left: 80%;
+  right: 10.06%;
+  top: 33%;
+  bottom: 94.32%;
+  background-color: transparent;
+  border: transparent;
+}
 
+.logout:hover {
+  transform: translateY(-5px);
+}
   #profile:hover {
     transform: translateY(-5px);
 }

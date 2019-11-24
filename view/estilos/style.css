@@ -85,7 +85,7 @@ html {
     transform: translateY(-5px);
 }
 
-  .carrinho{  
+  .logout{  
     position: absolute;
     left: 80%;
     right: 10.06%;
@@ -95,7 +95,7 @@ html {
     border: transparent;
   }
 
-  .carrinho:hover {
+  .logout:hover {
     transform: translateY(-5px);
 }
 
