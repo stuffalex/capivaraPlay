@@ -94,15 +94,15 @@ main{
     transform: translateY(-5px);
 }
 
-  .logout{  
-    position: absolute;
-    left: 80%;
-    right: 10.06%;
-    top: 33%;
-    bottom: 94.32%;
-    background-color: transparent;
-    border: transparent;
-  }
+.logout{  
+  position: absolute;
+  left: 94%;
+  float: right;
+  top: 40%;
+  bottom: 94.32%;
+  background-color: transparent;
+  border: transparent;
+}
 
   .logout:hover {
     transform: translateY(-5px);

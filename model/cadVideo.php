@@ -2,14 +2,16 @@
 session_start();
 include_once("config.php");
 
-$nomeVideo = mysqli_real_escape_string($conexao, trim($_POST['nomeVideo']));
+$nome_video = mysqli_real_escape_string($conexao, trim($_POST['nome_video']));
 $sinopse = mysqli_real_escape_string($conexao, trim($_POST['sinopse']));
-$clasIndicativa = mysqli_real_escape_string($conexao, trim($_POST['clasIndicativa']));
+$clas_indicativa = mysqli_real_escape_string($conexao, trim($_POST['clas_indicativa']));
 //$senha = mysqli_real_escape_string($conexao, trim(md5($_POST['senha'])));
 $ano = mysqli_real_escape_string($conexao, trim($_POST['ano']));
 $duracao = mysqli_real_escape_string($conexao, trim($_POST['duracao']));
+$link = mysqli_real_escape_string($conexao, trim($_POST['link']));
 
-  $sql = "select count(*) as total from video where nomeVideo = '$nomeVideo'";
+
+  $sql = "select count(*) as total from video where nome_video = '$nome_video'";
   $result = mysqli_query($sql);
   $row = mysqli_fetch_assoc($result);
 
@@ -20,10 +22,10 @@ if($row['total'] != 0){
   exit(); 
 }
 //se o formulario ta vazio, warning = empty_form
-if(empty($_POST['nomeVideo']) || empty($_POST['sinopse']) || empty($_POST['clasIndicativa']) || empty($_POST['ano']) || empty($_POST['duracao']) ){
+if(empty($_POST['nome_video']) || empty($_POST['sinopse']) || empty($_POST['clas_indicativa']) || empty($_POST['ano']) || empty($_POST['duracao']) ){
   header('Location: ./../view/admin.php?warning=empty_form');
 }
-$sql = "INSERT INTO video(nomeVideo, sinopse, clasIndicativa, ano, duracao) VALUES ('$nomeVideo', '$sinopse', '$clasIndicativa', '$ano', '$duracao')";
+$sql = "INSERT INTO video(nome_video, sinopse, clas_indicativa, ano, duracao) VALUES ('$nome_video', '$sinopse', '$clas_indicativa', '$ano', '$duracao')";
 
 if($conexao->query($sql) === TRUE){
     $_SESSION['status_cadastro'] = true;
