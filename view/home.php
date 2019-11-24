@@ -46,9 +46,6 @@ include_once('./../model/verificaLogin.php');
                     <div id="divBusca">
                         <input type="text" id="txtBusca" placeholder="Buscar..."/>
                         <img src="./icons/lupa.svg" id="btnBusca" alt="Buscar"/>
-                        <button type="menu" id="categorias">
-                                <img src="./icons/categorias.svg" id="btnCategorias" alt="Categorias"/>
-                        </button> 
                     </div>
     
                     

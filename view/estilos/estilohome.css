@@ -81,40 +81,14 @@ main{
     transform: translateY(-5px);
 }
 
-  #categorias{ 
+.logout{  
     position: absolute;
-    left: 100%;
-    right: 24.72%;
-    top: 5%;
-    bottom: 94.47%;
-    background-color: transparent;
-    border: transparent;
-  }
-  #categorias:hover {
-    transform: translateY(-5px);
-}
-
-  .carrinho{  
-    position: absolute;
-    left: 90%;
+    left: 94%;
     float: right;
-    top: 33%;
+    top: 40%;
     bottom: 94.32%;
     background-color: transparent;
     border: transparent;
-  }
-
-  .carrinho:hover {
-    transform: translateY(-5px);
-}
-.logout{  
-  position: absolute;
-  left: 94%;
-  float: right;
-  top: 40%;
-  bottom: 94.32%;
-  background-color: transparent;
-  border: transparent;
 }
 
 .logout:hover {
