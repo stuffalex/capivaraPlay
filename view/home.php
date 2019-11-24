@@ -52,7 +52,7 @@ include_once('./../model/verificaLogin.php');
                     </div>
     
                     
-                    <img class="logout" src="assets\icons\logout.svg" alt="sair"/>
+                    <img class="logout" src="./icons/logout.svg" alt="sair"/>
                     <a href="#logout" class="logout"></a>
                 </nav>   
             </div>
