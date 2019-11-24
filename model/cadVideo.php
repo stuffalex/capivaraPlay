@@ -22,13 +22,13 @@ if($row['total'] != 0){
   exit(); 
 }
 //se o formulario ta vazio, warning = empty_form
-if(empty($_POST['nome_video']) || empty($_POST['sinopse']) || empty($_POST['clas_indicativa']) || empty($_POST['ano']) || empty($_POST['duracao']) ){
+if(empty($_POST['nome_video']) || empty($_POST['sinopse']) || empty($_POST['clas_indicativa']) || empty($_POST['ano']) || empty($_POST['duracao'])|| empty($_POST['link']) ){
   header('Location: ./../view/admin.php?warning=empty_form');
 }
-$sql = "INSERT INTO video(nome_video, sinopse, clas_indicativa, ano, duracao) VALUES ('$nome_video', '$sinopse', '$clas_indicativa', '$ano', '$duracao')";
+$sql = "INSERT INTO video(nome_video, sinopse, clas_indicativa, ano, duracao, link) VALUES ('$nome_video', '$sinopse', '$clas_indicativa', '$ano', '$duracao', '$link')";
 
 if($conexao->query($sql) === TRUE){
-    $_SESSION['status_cadastro'] = true;
+    $_SESSION['status_cadastro'] = true;  
 }
 
 $conexao->close();
