@@ -165,10 +165,10 @@
         <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/2r4CTuhfaKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Nbcyf1i6oio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/jQwzWtw32aY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><img src="./images/mercado.jpg" alt="video"></div>
-        <div id="video"><img src="./images/morango.jpg" alt="video"></div>
-        <div id="video"><img src="./images/pizza.jpg" alt="video"></div>
-        <div id="video"><img src="./images/vlogueira.jpg" alt="video"></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/UkC9Y_8g6EQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/5nRHdl0dTZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/vy38NLQeZJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/d_BJChFH6qQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div id="video"><img src="./images/morango.jpg" alt="video"></div>
         <div id="video"><img src="./images/cerveja.jpg" alt="video"></div>
         <div id="video"><img src="./images/cozinha.jpg" alt="video"></div>
