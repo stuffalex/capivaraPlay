@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 24-Nov-2019 às 21:06
+-- Generation Time: 25-Nov-2019 às 03:53
 -- Versão do servidor: 10.1.40-MariaDB
 -- versão do PHP: 7.1.29
 
@@ -46,7 +46,7 @@ INSERT INTO `usuario` (`usuario_id`, `nome`, `senha`, `email`, `celular`) VALUES
 (3, 'Gabriel Teixeira', '123456', 'gabs@capiravaplay.com', '067987654321'),
 (4, 'admin', 'adminadmin', 'admin@capiravaplay.com', '067123456789'),
 (9, 'Gabs hastad', '147258369', 'gabrie.teixera009@gmail.com', '67981611716'),
-(10, '', '', '', '');
+(10, 'Alexya Moraes', '123', 'alexyavianaa@gmail.com', '123456');
 
 -- --------------------------------------------------------
 
@@ -55,6 +55,7 @@ INSERT INTO `usuario` (`usuario_id`, `nome`, `senha`, `email`, `celular`) VALUES
 --
 
 CREATE TABLE `video` (
+  `id_video` int(20) NOT NULL,
   `nome_video` varchar(50) NOT NULL,
   `sinopse` varchar(300) NOT NULL,
   `duracao` int(11) NOT NULL,
@@ -67,8 +68,17 @@ CREATE TABLE `video` (
 -- Extraindo dados da tabela `video`
 --
 
-INSERT INTO `video` (`nome_video`, `sinopse`, `duracao`, `link`, `ano`, `clas_indicativa`) VALUES
-('Aniversario', 'Esse é um video de homenagem ao nosso amigo querido', 160, 'https://drive.google.com/file/d/1FZCuJE4ndmzCjFsRuxefjPq5SWxFMpM6/view?usp=sharing', '', 0);
+INSERT INTO `video` (`id_video`, `nome_video`, `sinopse`, `duracao`, `link`, `ano`, `clas_indicativa`) VALUES
+(1, 'Venom', 'O jornalista Eddie Brock desenvolve forÃ§a e poder sobre-humanos quando seu corpo se funde com o alienÃ­gena Venom. Dominado pela raiva, Venom tenta controlar as novas e perigosas habilidades de Eddie.', 85, '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/dce5RNg4G_4\" frameborder=\"0\" all', '2019', 18),
+(2, 'OS FAROFEIROS', 'filme brasileiro', 101, '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aOF0vdvoD7k\" frameborder=\"0\" all', '2018', 0),
+(3, 'A JUSTICEIRA', 'aÃ§ao', 101, 'https://www.youtube.com/watch?v=SVibxQOt_Ow <iframe width=\"560\" height=\"315\" src=\"https://www.youtub', '2019', 18),
+(4, 'O PREÃ‡O DO AMANHA', 'AA', 120, '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/euQrskSt1eY\" frameborder=\"0\" all', '2002', 16),
+(5, 'O MENINO VELOZ', 'blabla', 130, '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Uf0Gqr7YwUw\" frameborder=\"0\" all', '2018', 12),
+(6, 'O COMEÃ‡O DE UM GRANDE AMOR', 'blabla', 99, '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zHUJWxs9hb4\" frameborder=\"0\" all', '2019', 12),
+(7, 'A OUTRA FILHA', 'blabla', 94, '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lSqDzJgedRI\" frameborder=\"0\" all', '2019', 18),
+(8, 'CORGI: TOP DOG', 'CACHORRO DA RAINHA', 6, '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SOwhByDbiWI\" frameborder=\"0\" all', '2019', 85),
+(9, 'ELA Ã‰ O CARA', 'blabla', 65, '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Qhb81UhgvvY\" frameborder=\"0\" all', '2019', 12),
+(10, 'SOCORRO VIREI UMA GAROTA', '', 0, '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2r4CTuhfaKc\" frameborder=\"0\" all', '', 12);
 
 --
 -- Indexes for dumped tables
@@ -82,6 +92,12 @@ ALTER TABLE `usuario`
   ADD UNIQUE KEY `senha` (`senha`);
 
 --
+-- Indexes for table `video`
+--
+ALTER TABLE `video`
+  ADD PRIMARY KEY (`id_video`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -89,7 +105,13 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT for table `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `usuario_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `usuario_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT for table `video`
+--
+ALTER TABLE `video`
+  MODIFY `id_video` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
