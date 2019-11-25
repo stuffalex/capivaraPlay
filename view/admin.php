@@ -1,5 +1,21 @@
-<?php
-session_start();
-?>
-
-// html com botao de cancelar e botao de cadastrar
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>cadastro de videos</title>
+</head>
+<body>
+  <form action="../model/cadVideo.php" method="post"><br>
+    Nome do video: <input type="text" name="nome_video"><br>
+    sinopse: <input type="text" name="sinopse"> <br>
+    ano: <input type="text" name="ano"><br>
+    duracao: <input type="text" name="duracao"><br>
+    clas indicativa: <input type="text" name="clas_indicativa"><br>
+    Link: <input type="text" name="link"><br>
+   <button type="submit">enviar</button>
+   
+  </form>
+</body>
+</html>

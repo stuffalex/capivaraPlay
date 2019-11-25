@@ -20,15 +20,17 @@ if($row['total'] != 0){
 }
 //se o formulario ta vazio, warning = empty_form
 if(empty($_POST['email']) || empty($_POST['senha']) || empty($_POST['nome']) || empty($_POST['celular']) ){
-  header('Location: ./../view/cadastro.php?warning=empty_form');
+  header('Location: ./../view/cadastro.php');
+   exit();
 }
-$sql = "INSERT INTO usuario(nome, email, senha, celular) VALUES ('$nome', '$email', '$senha', '$celular')";
+
+$sql = "INSERT INTO usuario( nome, email, senha, celular) VALUES ('$nome', '$email', '$senha', '$celular')";
 
 if($conexao->query($sql) === TRUE){
     $_SESSION['status_cadastro'] = true;
 }
 
 $conexao->close();
-header('Location: ./../view/index.php');
+header('Location: ./../index.php');
 exit();
 ?>

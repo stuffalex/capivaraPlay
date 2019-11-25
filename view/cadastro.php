@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 
 
 
@@ -18,6 +15,7 @@ session_start();
 		<h2>CAPIVARA PLAY</h2>
 	</div>
 	<h1>CADASTRO</h1>
+	
 	
 	<form action="./../model/cadastrar.php" method="POST">
 	

@@ -52,8 +52,7 @@ include_once('./../model/verificaLogin.php');
                     </div>
     
                     
-                    <img class="logout" src="./icons/logout.svg" alt="sair"/>
-                    <a href="#logout" class="logout"></a>
+                    <a href="./../model/logout.php" class="logout"><img class="logout" src="./icons/logout.svg" alt="sair"/></a>
                 </nav>   
             </div>
           </header>
@@ -157,7 +156,8 @@ include_once('./../model/verificaLogin.php');
           
       <div class="videos">
         <h1>Recomendados</h1> 
-        <div id="video"><img src="./images/pizza.jpg" alt="video"></div>
+       
+        <div id="video"><a href=""><img src="./images/pizza.jpg" alt="video"></a></div>
         <div id="video"><img src="./images/cerveja.jpg" alt="video"></div>
         <div id="video"><img src="./images/cozinha.jpg" alt="video"></div>
         <div id="video"><img src="./images/et.jpg" alt="video"></div>
