@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
         
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -17,7 +15,7 @@ session_start();
         </div>
       <form action = "./model/logar.php" method = "POST">
         <input name = "email" class="campo" type="text" placeholder="e-mail">
-        <a href="./view/cadastro.php"><h4>Nao possui uma conta?</h4></a>
+        <a href="view/cadastro.php"><h4>Nao possui uma conta?</h4></a>
 
         <input name = "senha" class="campo" type="password" placeholder="senha">
         <h4>Esqueceu sua senha?</h4>
