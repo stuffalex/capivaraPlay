@@ -1,5 +1,5 @@
 <?php
-include_once('./../model/verificaLogin.php');
+//include_once('./../model/verificaLogin.php');
 
 
 ?>
@@ -9,6 +9,7 @@ include_once('./../model/verificaLogin.php');
 <!DOCTYPE html>
 <html lang = "pt-br">
     <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -62,35 +63,36 @@ include_once('./../model/verificaLogin.php');
             <div id="carousel">
               <h1>Recentes</h1>
               <div class="hideLeft">
-                <img id="imgcarrocel" src="./images/maxresdefault.jpg">
+                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
               </div>
               
               <div class="prevLeftSecond">
-                <img id="imgcarrocel" src="./images/cerveja.jpg">
+                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
               <div class="prev">
-                <img id="imgcarrocel" src="./images/vlogueira.jpg">
+               <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
               <div class="selected">
-                <img id="imgcarrocel" src="./images/pizza.jpg">
+                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
               <div class="next">
-                <img id="imgcarrocel" src="./images/et.jpg">
+                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
               <div class="nextRightSecond">
-                <img id="imgcarrocel" src="./images/frutaagua.jpg">
+                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
               <div class="hideRight">
-                <img id="imgcarrocel" src="./images/japao.jpg">
+                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
             </div>
           </main>
+       
 
           <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
           <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
@@ -152,8 +154,9 @@ include_once('./../model/verificaLogin.php');
             moveToSelected('next');
           });
                 //# sourceURL=pen.js
+                
             </script>
-          
+      
       <div class="videos">
         <h1>Recomendados</h1> 
        
@@ -186,5 +189,6 @@ include_once('./../model/verificaLogin.php');
           <li id="itemNE"><a href="#TrabalheConosco">Trabalhe conosco</a></li>
         </ul>
       </div> 
+      
     </body>
 </html>         
