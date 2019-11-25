@@ -42,7 +42,7 @@
  
                 <nav class="nav-bar">
                     <img class="logo" src="./icons/logo.svg" alt="Logo Capivara play">
-                    <a href="#inicio" class="logo"></a>
+                    <a href="." class="logo"></a>
 
                     <div id="divBusca">
                         <input type="text" id="txtBusca" placeholder="Buscar..."/>
@@ -58,20 +58,20 @@
             </div>
           </header>
 
-          <div id="frase">Mais de 369.311 vídeos livres de direitos com 2.184 novos vídeos adicionados a cada semana.</div>
+          
           <main>
             <div id="carousel">
               <h1>Recentes</h1>
               <div class="hideLeft">
-                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/aOF0vdvoD7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
               </div>
               
               <div class="prevLeftSecond">
-                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/SVibxQOt_Ow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
               <div class="prev">
-               <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/euQrskSt1eY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
               <div class="selected">
@@ -79,15 +79,15 @@
               </div>
               
               <div class="next">
-                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Uf0Gqr7YwUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
               <div class="nextRightSecond">
-                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/zHUJWxs9hb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
               <div class="hideRight">
-                <iframe id="imgcarrocel" width="560" height="315" src="https://www.youtube.com/embed/dce5RNg4G_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/lSqDzJgedRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
             </div>
@@ -160,13 +160,11 @@
       <div class="videos">
         <h1>Recomendados</h1> 
        
-        <div id="video"><a href=""><img src="./images/pizza.jpg" alt="video"></a></div>
-        <div id="video"><img src="./images/cerveja.jpg" alt="video"></div>
-        <div id="video"><img src="./images/cozinha.jpg" alt="video"></div>
-        <div id="video"><img src="./images/et.jpg" alt="video"></div>
-        <div id="video"><img src="./images/frutaagua.jpg" alt="video"></div>
-        <div id="video"><img src="./images/homemareia.jpg" alt="video"></div>
-        <div id="video"><img src="./images/japao.jpg" alt="video"></div>
+        
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Qhb81UhgvvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/2r4CTuhfaKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Nbcyf1i6oio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/jQwzWtw32aY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div id="video"><img src="./images/mercado.jpg" alt="video"></div>
         <div id="video"><img src="./images/morango.jpg" alt="video"></div>
         <div id="video"><img src="./images/pizza.jpg" alt="video"></div>
