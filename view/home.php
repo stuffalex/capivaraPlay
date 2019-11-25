@@ -58,7 +58,7 @@
             </div>
           </header>
 
-          
+        
           <main>
             <div id="carousel">
               <h1>Recentes</h1>
@@ -169,15 +169,15 @@
         <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/5nRHdl0dTZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/vy38NLQeZJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/d_BJChFH6qQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><img src="./images/morango.jpg" alt="video"></div>
-        <div id="video"><img src="./images/cerveja.jpg" alt="video"></div>
-        <div id="video"><img src="./images/cozinha.jpg" alt="video"></div>
-        <div id="video"><img src="./images/et.jpg" alt="video"></div>
-        <div id="video"><img src="./images/pizza.jpg" alt="video"></div>
-        <div id="video"><img src="./images/cerveja.jpg" alt="video"></div>
-        <div id="video"><img src="./images/cozinha.jpg" alt="video"></div>
-        <div id="video"><img src="./images/et.jpg" alt="video"></div>
-        <div id="video"><img src="./images/frutaagua.jpg" alt="video"></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/jlS3D94X45Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/GXsxLaEwVMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZT3D7y2fHfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/W4GxcVuj3q0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/HkL8GzqkujU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ujtO23UEg5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZpLnP_8XSQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/PAAQp2OXnp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="video"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w4pU66dfqrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       </div>      
       
       <div class="rodape">
