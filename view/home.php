@@ -1,5 +1,5 @@
 <?php
-//include_once('./../model/verificaLogin.php');
+include_once('./../model/verificaLogin.php');
 
 
 ?>
