@@ -184,6 +184,7 @@ include_once('./../model/verificaLogin.php');
         <ul> Nossa Empresa
           <li id="itemNE"><a href="#Vender">Vender Conteudo</a></li>
           <li id="itemNE"><a href="#Assinar">Assinar/renovar</a></li>
+          <li id="itemNE"><a href="./../view/contato.php">Fale Conosco</a></li>
           <li id="itemNE"><a href="#TrabalheConosco">Trabalhe conosco</a></li>
         </ul>
       </div> 
