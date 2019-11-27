@@ -96,7 +96,7 @@ main{
 
 .logout{  
   position: absolute;
-  
+  left: 94%;
   float: right;
   top: 40%;
   bottom: 94.32%;
@@ -188,17 +188,12 @@ ul{
   top: 1244px;
 }
 .videos{
-  margin-left: 25px;
   margin-top: 150px;
+  margin-left: 70px;
 
 }
 #video{
   display: inline-block;
-  background-color: #aaa;
-  width: 214px;
-  height: 132px;
-  margin-left: 10px;
-  margin-top: 10px;
   overflow: hidden;
   position: relative;
   overflow: hidden;
