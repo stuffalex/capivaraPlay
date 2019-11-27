@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-color: #414345;
+}
+
+
+h1{
+	color: #00F260;
+	font-size: 80px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+h2{
+	float: left;
+	color: #00F260;
+}
+
+h4{
+	color: #696D71;
+    margin-top: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+span{
+	color: #00F260;
+}
+
+#altura{
+	height: 30px;
+}
+
+.campo{
+    width: 50%;
+    height: 40px;
+    max-width: 800px;
+    color: #696D71;
+    display: block;
+    font-size: 16px;
+    margin-left: 50%;
+    text-align: left;
+    text-indent: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #414345; 
+    border: 2px solid #00F260;
+    transform: translate(-50%);
+    font-family: "TRANSISTOR215";
+}
+
+#campoMensagem{
+    width: 50%;
+    height: 120px;
+    max-width: 800px;
+    color: #696D71;
+    display: block;
+    font-size: 16px;
+    margin-left: 50%;
+    text-align: left;
+    text-indent: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #414345; 
+    border: 2px solid #00F260;
+    transform: translate(-50%);
+    font-family: "TRANSISTOR215";
+}
+
+.botaoLogin{
+    width: 150px;
+    height: 50px;
+    color: #414345;
+    border: none;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-bottom: 20px;
+    transform: translate(-50%);
+    background-color: #00F260;
+    font-family: "TRANSISTOR215";
+    
+}
