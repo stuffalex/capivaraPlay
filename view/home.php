@@ -1,3 +1,4 @@
+
 <?php
 include_once('./../model/verificaLogin.php');
 
@@ -58,7 +59,7 @@ include_once('./../model/verificaLogin.php');
             </div>
           </header>
 
-        
+<!-- ------------------------------------------------- Conteúdo do carrossel ------------------------------------------------------------------------------------------>        
           <main>
             <div id="carousel">
               <h1>Recentes</h1>
@@ -91,9 +92,13 @@ include_once('./../model/verificaLogin.php');
               </div>
               
             </div>
+            <div class="buttons">
+                <button id="prev">Prev</button>
+                <button id="next">Next</button>
+            </div>
           </main>
        
-
+<!-- ---------------------------------------------- Scripts para o funcioanemnto dos botões----------------------------------------------> 
           <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
           <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
           <script id="rendered-js">
@@ -159,25 +164,24 @@ include_once('./../model/verificaLogin.php');
       
       <div class="videos">
         <h1>Recomendados</h1> 
-       
-        
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Qhb81UhgvvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/2r4CTuhfaKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Nbcyf1i6oio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/jQwzWtw32aY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/UkC9Y_8g6EQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/5nRHdl0dTZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/vy38NLQeZJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/d_BJChFH6qQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/jlS3D94X45Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/GXsxLaEwVMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZT3D7y2fHfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/W4GxcVuj3q0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/HkL8GzqkujU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ujtO23UEg5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZpLnP_8XSQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/PAAQp2OXnp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div id="video"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w4pU66dfqrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Qhb81UhgvvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/2r4CTuhfaKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Nbcyf1i6oio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/jQwzWtw32aY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/UkC9Y_8g6EQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/5nRHdl0dTZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/vy38NLQeZJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/d_BJChFH6qQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/jlS3D94X45Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/GXsxLaEwVMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZT3D7y2fHfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/W4GxcVuj3q0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/HkL8GzqkujU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ujtO23UEg5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZpLnP_8XSQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/PAAQp2OXnp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div id="video"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w4pU66dfqrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       </div>      
       
       <div class="rodape">
@@ -185,7 +189,6 @@ include_once('./../model/verificaLogin.php');
           <li id="itemNE"><a href="#Vender">Vender Conteudo</a></li>
           <li id="itemNE"><a href="#Assinar">Assinar/renovar</a></li>
           <li id="itemNE"><a href="./../view/contato.php">Fale Conosco</a></li>
-          <li id="itemNE"><a href="#TrabalheConosco">Trabalhe conosco</a></li>
         </ul>
       </div> 
       
