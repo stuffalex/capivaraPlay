@@ -36,11 +36,11 @@
   $enviaremail = mail($destino, $assunto, $arquivo, $headers);
   if($enviaremail) {
     echo "<script> sessionStorage.setItem('mensagem', 'E-mail enviado com sucesso!'); </script>";
-    echo "<script> window.location.href = 'index.php'; </script>";
-    echo "<meta http-equiv='refresh' content='10; URL=index.php'>";
+    echo "<script> window.location.href = './../view/contato.php'; </script>";
+    echo "<meta http-equiv='refresh' content='10; URL=./../view/contato.php'>";
   } else {
     echo "<script> sessionStorage.setItem('mensagem', 'Erro ao enviar e-mail!'); </script>";
-    echo "<script> window.location.href = 'index.php'; </script>";
-    echo "<meta http-equiv='refresh' content='10; URL=index.php'>";
+    echo "<script> window.location.href = './../view/contato.php'; </script>";
+    echo "<meta http-equiv='refresh' content='10; URL=./../view/contato.php'>";
   }
 ?>

@@ -13,12 +13,12 @@
 	</div>
 	<h1>FALE CONOSCO</h1>
 
-	<form method="post" action="contatodosite.php">
-		<input class="campo" type="text" placeholder="Nome">
-		<input class="campo" type="text" placeholder="Email">
-		<input class="campo" type="text" name="Celular" onkeyup="mascara(this, mtel);" maxlength="15" placeholder="Celular" required>
-        <textarea id="campoMensagem" name="mensagem" placeholder="Mensagem" rows="4" required></textarea>
-		<a href="home.html"><button class="botaoLogin" id="botaoLogin"><STRONG>ENVIAR</STRONG></button></a>
+	<form method="post" action="./../model/contatodosite.php">
+		<input name="nome" class="campo" type="text" placeholder="Nome">
+		<input name="email" class="campo" type="text" placeholder="Email">
+		<input name="telefone" class="campo" type="text" name="Celular" onkeyup="mascara(this, mtel);" maxlength="15" placeholder="Celular" required>
+        <textarea name="mensagem" id="campoMensagem" name="mensagem" placeholder="Mensagem" rows="4" required></textarea>
+		<button class="botaoLogin" type="submit" id="botaoLogin"><STRONG>ENVIAR</STRONG></button>
 	</form>
 </body>
 
